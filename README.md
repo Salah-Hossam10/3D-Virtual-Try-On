@@ -1,7 +1,7 @@
-👕 3D Virtual Try-On System
+## 👕 3D Virtual Try-On System
 This project demonstrates a basic 3D virtual try-on system that fits a t-shirt mesh onto a 3D human body mesh using Python libraries like Open3D and Trimesh. The system loads 3D assets, performs alignment and scaling, and visualizes the results.
 
-📁 Project Structure
+## 📁 Project Structure
 python
 Copy
 Edit
@@ -11,7 +11,7 @@ Try 3D Mesh/
 ├── results/
 │   └── virtual_tryon_result.html  # Optional: HTML preview of results
 
-🛠️ How It Works
+## 🛠️ How It Works
 Mesh Extraction
 
 Extracts body and t-shirt meshes from the zip files provided.
@@ -28,7 +28,7 @@ Visualization
 
 Displays the body and t-shirt together in a 3D scene using Plotly or Open3D.
 
-📦 Dependencies
+## 📦 Dependencies
 Install requirements using pip:
 
 bash
@@ -41,7 +41,7 @@ bash
 Copy
 Edit
 pip install pygltflib
-🚀 Run the Project
+## 🚀 Run the Project
 Extract the zip files:
 
 body_samples.zip → body_samples/
@@ -50,7 +50,7 @@ tshirt_samples.zip → tshirt_sample/
 
 Open the tryon.ipynb notebook and run all cells.
 
-🧠 Bonus Areas (Mentioned in Report)
+## 🧠 Bonus Areas (Mentioned in Report)
 This project can be extended with:
 
 Cloth Simulation using Blender or NVIDIA Flex
@@ -61,7 +61,7 @@ SMPL-X Support for morphable body shapes and poses
 
 Collision Detection to handle mesh intersections
 
-👤 Author
+## 👤 Author
 Salah Hossam
 Machine Learning & Embedded Systems Engineer
 🔗 LinkedIn
